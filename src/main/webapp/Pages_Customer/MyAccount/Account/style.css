@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  overflow-x: hidden;
+}
+h1 {
+  font-size: 20px;
+}
+a {
+  outline: none;
+  text-decoration: none;
+  color: #777777;
+}
+a:hover {
+  color: #222222;
+}
+@media only screen and (max-width: 400px){
+  .about__us__paragraph__text{
+    text-align: center;
+  }
+}

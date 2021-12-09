@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name>Shopping cart JPA - Hibernate</display-name>
+  <servlet>
+    <description></description>
+    <display-name>HomeController</display-name>
+    <servlet-name>HomeController</servlet-name>
+    <servlet-class>com.nhom1.controller.HomeController</servlet-class>
+  </servlet>
+  <servlet>
+    <description></description>
+    <display-name>CartController</display-name>
+    <servlet-name>CartController</servlet-name>
+    <servlet-class>com.nhom1.controller.CartController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HomeController</servlet-name>
+    <url-pattern>/HomeController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CartController</servlet-name>
+    <url-pattern>/CartController</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>CustomerHome</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>PersonController</display-name>
+    <servlet-name>PersonController</servlet-name>
+    <servlet-class>com.nhom1.controller.PersonController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PersonController</servlet-name>
+    <url-pattern>/PersonController</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <description></description>
+    <display-name>AddProductController</display-name>
+    <servlet-name>AddProductController</servlet-name>
+    <servlet-class>com.nhom1.controller.AddProductController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddProductController</servlet-name>
+    <url-pattern>/AddProductController</url-pattern>
+  </servlet-mapping>
+
+   <servlet>
+    <description></description>
+    <display-name>EditProductController</display-name>
+    <servlet-name>EditProductController</servlet-name>
+    <servlet-class>com.nhom1.controller.EditProductController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EditProductController</servlet-name>
+    <url-pattern>/EditProductController</url-pattern>
+  </servlet-mapping>
+
+
+   <servlet>
+    <description></description>
+    <display-name>SaveController</display-name>
+    <servlet-name>SaveController</servlet-name>
+    <servlet-class>com.nhom1.controller.SaveController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SaveController</servlet-name>
+    <url-pattern>/SaveController</url-pattern>
+  </servlet-mapping>
+
+   <servlet>
+    <description></description>
+    <display-name>DeleteProductController</display-name>
+    <servlet-name>DeleteProductController</servlet-name>
+    <servlet-class>com.nhom1.controller.DeleteProductController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteProductController</servlet-name>
+    <url-pattern>/DeleteProductController</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <description></description>
+    <display-name>CustomerHome</display-name>
+    <servlet-name>CustomerHome</servlet-name>
+    <servlet-class>com.nhom1.controller.CustomerHome</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CustomerHome</servlet-name>
+    <url-pattern>/CustomerHome</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <description></description>
+    <display-name>ProductPageForward</display-name>
+    <servlet-name>ProductPageForward</servlet-name>
+    <servlet-class>com.nhom1.controller.ProductPageForward</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ProductPageForward</servlet-name>
+    <url-pattern>/ProductPageForward</url-pattern>
+  </servlet-mapping>
+  
+     <servlet>
+    <description></description>
+    <display-name>Test</display-name>
+    <servlet-name>Test</servlet-name>
+    <servlet-class>com.nhom1.controller.Test</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Test</servlet-name>
+    <url-pattern>/Test</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>FindProductController</display-name>
+    <servlet-name>FindProductController</servlet-name>
+    <servlet-class>com.nhom1.controller.FindProductController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FindProductController</servlet-name>
+    <url-pattern>/FindProductController</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <description></description>
+    <display-name>CookieController</display-name>
+    <servlet-name>CookieController</servlet-name>
+    <servlet-class>com.nhom1.controller.CookieController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CookieController</servlet-name>
+    <url-pattern>/CookieController</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <description></description>
+    <display-name>ShowCartController</display-name>
+    <servlet-name>ShowCartController</servlet-name>
+    <servlet-class>com.nhom1.controller.ShowCartController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ShowCartController</servlet-name>
+    <url-pattern>/ShowCartController</url-pattern>
+  </servlet-mapping>
+  
+     <servlet>
+    <description></description>
+    <display-name>LoginForward</display-name>
+    <servlet-name>LoginForward</servlet-name>
+    <servlet-class>com.nhom1.controller.LoginForward</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginForward</servlet-name>
+    <url-pattern>/LoginForward</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <description></description>
+    <display-name>RegisterForward</display-name>
+    <servlet-name>RegisterForward</servlet-name>
+    <servlet-class>com.nhom1.controller.RegisterForward</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegisterForward</servlet-name>
+    <url-pattern>/RegisterForward</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <description></description>
+    <display-name>RegisterController</display-name>
+    <servlet-name>RegisterController</servlet-name>
+    <servlet-class>com.nhom1.controller.RegisterController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegisterController</servlet-name>
+    <url-pattern>/RegisterController</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <description></description>
+    <display-name>LoginController</display-name>
+    <servlet-name>LoginController</servlet-name>
+    <servlet-class>com.nhom1.controller.LoginController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginController</servlet-name>
+    <url-pattern>/LoginController</url-pattern>
+  </servlet-mapping>
+
+  
+     <servlet>
+    <description></description>
+    <display-name>CheckLoginController</display-name>
+    <servlet-name>CheckLoginController</servlet-name>
+    <servlet-class>com.nhom1.controller.CheckLoginController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CheckLoginController</servlet-name>
+    <url-pattern>/CheckLoginController</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>LogoutController</display-name>
+    <servlet-name>LogoutController</servlet-name>
+    <servlet-class>com.nhom1.controller.LogoutController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LogoutController</servlet-name>
+    <url-pattern>/LogoutController</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>DeleteCartController</display-name>
+    <servlet-name>DeleteCartController</servlet-name>
+    <servlet-class>com.nhom1.controller.DeleteCartController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteCartController</servlet-name>
+    <url-pattern>/DeleteCartController</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <description></description>
+    <display-name>CheckoutForward</display-name>
+    <servlet-name>CheckoutForward</servlet-name>
+    <servlet-class>com.nhom1.controller.CheckoutForward</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CheckoutForward</servlet-name>
+    <url-pattern>/CheckoutForward</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <description></description>
+    <display-name>LoginCheckOutController</display-name>
+    <servlet-name>LoginCheckOutController</servlet-name>
+    <servlet-class>com.nhom1.controller.LoginCheckOutController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginCheckOutController</servlet-name>
+    <url-pattern>/LoginCheckOutController</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <description></description>
+    <display-name>CheckOutWarningLogin</display-name>
+    <servlet-name>CheckOutWarningLogin</servlet-name>
+    <servlet-class>com.nhom1.controller.CheckOutWarningLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CheckOutWarningLogin</servlet-name>
+    <url-pattern>/CheckOutWarningLogin</url-pattern>
+  </servlet-mapping>
+  
+
+    <servlet>
+    <description></description>
+    <display-name>BillForward</display-name>
+    <servlet-name>BillForward</servlet-name>
+    <servlet-class>com.nhom1.controller.BillForward</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BillForward</servlet-name>
+    <url-pattern>/BillForward</url-pattern>
+  </servlet-mapping>
+  
+
+  
+   <servlet>
+    <description></description>
+    <display-name>BillDetailForward</display-name>
+    <servlet-name>BillDetailForward</servlet-name>
+    <servlet-class>com.nhom1.controller.BillDetailForward</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BillDetailForward</servlet-name>
+    <url-pattern>/BillDetailForward</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <description></description>
+    <display-name>SetAddress</display-name>
+    <servlet-name>SetAddress</servlet-name>
+    <servlet-class>com.nhom1.controller.SetAddress</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SetAddress</servlet-name>
+    <url-pattern>/SetAddress</url-pattern>
+  </servlet-mapping>
+    
+    <servlet>
+    <description></description>
+    <display-name>SetCategory</display-name>
+    <servlet-name>SetCategory</servlet-name>
+    <servlet-class>com.nhom1.controller.SetCategory</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SetCategory</servlet-name>
+    <url-pattern>/SetCategory</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <description></description>
+    <display-name>EditAccountForward</display-name>
+    <servlet-name>EditAccountForward</servlet-name>
+    <servlet-class>com.nhom1.controller.EditAccountForward</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EditAccountForward</servlet-name>
+    <url-pattern>/EditAccountForward</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>EditAccountController</display-name>
+    <servlet-name>EditAccountController</servlet-name>
+    <servlet-class>com.nhom1.controller.EditAccountController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EditAccountController</servlet-name>
+    <url-pattern>/EditAccountController</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>ChangePasswordForward</display-name>
+    <servlet-name>ChangePasswordForward</servlet-name>
+    <servlet-class>com.nhom1.controller.ChangePasswordForward</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ChangePasswordForward</servlet-name>
+    <url-pattern>/ChangePasswordForward</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <description></description>
+    <display-name>ChangePasswordController</display-name>
+    <servlet-name>ChangePasswordController</servlet-name>
+    <servlet-class>com.nhom1.controller.ChangePasswordController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ChangePasswordController</servlet-name>
+    <url-pattern>/ChangePasswordController</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>OrderHistoryForward</display-name>
+    <servlet-name>OrderHistoryForward</servlet-name>
+    <servlet-class>com.nhom1.controller.OrderHistoryForward</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>OrderHistoryForward</servlet-name>
+    <url-pattern>/OrderHistoryForward</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>SearchCategoryController</display-name>
+    <servlet-name>SearchCategoryController</servlet-name>
+    <servlet-class>com.nhom1.controller.SearchCategoryController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SearchCategoryController</servlet-name>
+    <url-pattern>/SearchCategoryController</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <description></description>
+    <display-name>SearchHeaderController</display-name>
+    <servlet-name>SearchHeaderController</servlet-name>
+    <servlet-class>com.nhom1.controller.SearchHeaderController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SearchHeaderController</servlet-name>
+    <url-pattern>/SearchHeaderController</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <description></description>
+    <display-name>AboutUsForward</display-name>
+    <servlet-name>AboutUsForward</servlet-name>
+    <servlet-class>com.nhom1.controller.AboutUsForward</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AboutUsForward</servlet-name>
+    <url-pattern>/AboutUsForward</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+   <servlet>
+    <description></description>
+    <display-name>PolicyForward</display-name>
+    <servlet-name>PolicyForward</servlet-name>
+    <servlet-class>com.nhom1.controller.PolicyForward</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PolicyForward</servlet-name>
+    <url-pattern>/PolicyForward</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <description></description>
+    <display-name>TermForward</display-name>
+    <servlet-name>TermForward</servlet-name>
+    <servlet-class>com.nhom1.controller.TermForward</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TermForward</servlet-name>
+    <url-pattern>/TermForward</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <description></description>
+    <display-name>ContactForward</display-name>
+    <servlet-name>ContactForward</servlet-name>
+    <servlet-class>com.nhom1.controller.ContactForward</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ContactForward</servlet-name>
+    <url-pattern>/ContactForward</url-pattern>
+  </servlet-mapping>
+  
+  <error-page>
+	<error-code>500</error-code>
+	<location>/error/index.html</location>
+</error-page>
+  
+OrderHistoryForward
+</web-app>
